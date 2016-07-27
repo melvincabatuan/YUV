@@ -36,6 +36,8 @@ public class MainActivity extends Activity implements TextureView.SurfaceTexture
 
     final boolean LOG_FRAME_RATE = true;
     private boolean bProcessing = false;
+
+
     private Handler mHandler=new Handler(Looper.getMainLooper());
 
     @Override
